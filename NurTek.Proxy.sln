@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NurTek.Proxy.Core", "NurTek.Proxy.Core\NurTek.Proxy.Core.csproj", "{A6C18FB1-19CA-4EE9-BD1A-EC43D3A6DF18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NurTek.Proxy.Web", "examples\NurTek.Proxy.Web\NurTek.Proxy.Web.csproj", "{065ACFCE-D75F-42D8-9545-3CF29F6ECC92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{01EF93E4-B530-4D6C-A7A9-AC4BBC8D5F75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NurTek.Proxy.Test", "NurTek.Proxy.Test\NurTek.Proxy.Test.csproj", "{FC3465DE-AFEC-462C-9151-ACBA567EF34B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6C18FB1-19CA-4EE9-BD1A-EC43D3A6DF18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6C18FB1-19CA-4EE9-BD1A-EC43D3A6DF18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6C18FB1-19CA-4EE9-BD1A-EC43D3A6DF18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6C18FB1-19CA-4EE9-BD1A-EC43D3A6DF18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{065ACFCE-D75F-42D8-9545-3CF29F6ECC92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{065ACFCE-D75F-42D8-9545-3CF29F6ECC92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{065ACFCE-D75F-42D8-9545-3CF29F6ECC92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{065ACFCE-D75F-42D8-9545-3CF29F6ECC92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC3465DE-AFEC-462C-9151-ACBA567EF34B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC3465DE-AFEC-462C-9151-ACBA567EF34B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC3465DE-AFEC-462C-9151-ACBA567EF34B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC3465DE-AFEC-462C-9151-ACBA567EF34B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{065ACFCE-D75F-42D8-9545-3CF29F6ECC92} = {01EF93E4-B530-4D6C-A7A9-AC4BBC8D5F75}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6C1E242-EA13-4FE4-B9AA-BAB1F5CC6610}
+	EndGlobalSection
+EndGlobal
